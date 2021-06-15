@@ -1,0 +1,23 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  tbody{
+    height:100px;
+    justify-content: flex-start;
+    flex: 1 1 auto;
+    position: relative; /* need this to position inner content */
+    overflow-y: auto;
+
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
